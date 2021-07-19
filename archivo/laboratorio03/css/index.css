@@ -1,0 +1,36 @@
+body {
+  margin: 5px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 45%;
+  background-color: gainsboro;
+  position: fixed;
+  overflow: auto;
+  border: 5px solid rgb(141, 115, 115);
+}
+
+li {
+  text-align: center;
+  border: 5px solid rgb(252, 209, 116);
+}
+
+li a {
+  display: block;
+  color: black;
+  padding: 30px 16px;
+  text-decoration: none;
+}
+
+li a.activo {
+  background-color: rgba(253, 255, 110, 0.911);
+  color: white;
+}
+
+li a:hover:not(activo) {
+  background-color: rgb(247, 210, 210);
+  color: white;
+}
