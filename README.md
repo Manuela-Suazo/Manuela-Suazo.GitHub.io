@@ -1,2 +1,2 @@
-# Manuela-Suazo.GitHub.io
-Proyecto Web
+# manuela-suazo.github.io
+pagina web
